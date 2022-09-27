@@ -1,0 +1,146 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-MVCPortfolio-718F9F69-B9A2-4325-92AB-1AF1643C2B6D</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\animate.min.css" />
+    <Content Remove="wwwroot\css\bootstrap-theme.css" />
+    <Content Remove="wwwroot\css\bootstrap-theme.min.css" />
+    <Content Remove="wwwroot\css\bootstrap.css" />
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\custom.css" />
+    <Content Remove="wwwroot\css\demo.css" />
+    <Content Remove="wwwroot\css\easy-responsive-tabs.min.css" />
+    <Content Remove="wwwroot\css\links.css" />
+    <Content Remove="wwwroot\css\tabs.css" />
+    <Content Remove="wwwroot\css\templatemo-style.css" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <Content Remove="wwwroot\img\about-image.jpg" />
+    <Content Remove="wwwroot\img\background-image.png" />
+    <Content Remove="wwwroot\img\Classmate Photos\Brittany Dodd.jpg" />
+    <Content Remove="wwwroot\img\Classmate Photos\Casey Brown.jpg" />
+    <Content Remove="wwwroot\img\Classmate Photos\John Walls.jpg" />
+    <Content Remove="wwwroot\img\Classmate Photos\Kurtis Caldwell.jpeg" />
+    <Content Remove="wwwroot\img\Classmate Photos\Paige Scott.jpg" />
+    <Content Remove="wwwroot\img\Classmate Photos\Sean Coyan.jpg" />
+    <Content Remove="wwwroot\img\Classmate Photos\Storm Agnew.jpg" />
+    <Content Remove="wwwroot\img\Classmate Photos\Zachary Barkoviak.jpg" />
+    <Content Remove="wwwroot\img\close.png" />
+    <Content Remove="wwwroot\img\home-image.jpg" />
+    <Content Remove="wwwroot\img\IMG_0998.JPG" />
+    <Content Remove="wwwroot\img\IMG_0999.JPG" />
+    <Content Remove="wwwroot\img\item-01.jpg" />
+    <Content Remove="wwwroot\img\item-02.jpg" />
+    <Content Remove="wwwroot\img\item-03.jpg" />
+    <Content Remove="wwwroot\img\item-04.jpg" />
+    <Content Remove="wwwroot\img\item-05.jpg" />
+    <Content Remove="wwwroot\img\item-06.jpg" />
+    <Content Remove="wwwroot\img\item-07.jpg" />
+    <Content Remove="wwwroot\img\loading.gif" />
+    <Content Remove="wwwroot\img\logo.png" />
+    <Content Remove="wwwroot\img\mARKuP pIC ME.JPG" />
+    <Content Remove="wwwroot\img\next.png" />
+    <Content Remove="wwwroot\img\prev.png" />
+    <Content Remove="wwwroot\img\project-icon.png" />
+    <Content Remove="wwwroot\img\project-item-01.jpg" />
+    <Content Remove="wwwroot\img\project-item-02.jpg" />
+    <Content Remove="wwwroot\img\project-item-03.jpg" />
+    <Content Remove="wwwroot\img\project-item-04.jpg" />
+    <Content Remove="wwwroot\img\project-item-05.jpg" />
+    <Content Remove="wwwroot\img\project-item-06.jpg" />
+    <Content Remove="wwwroot\img\project-item-07.jpg" />
+    <Content Remove="wwwroot\img\TXBY1803.JPG" />
+    <Content Remove="wwwroot\js\easyResponsiveTabs.js" />
+    <Content Remove="wwwroot\js\jquery.gmap3.min.js" />
+    <Content Remove="wwwroot\js\jquery.nicescroll.min.js" />
+    <Content Remove="wwwroot\js\jquery.youtube-background.js" />
+    <Content Remove="wwwroot\js\main.js" />
+    <Content Remove="wwwroot\js\plugins.js" />
+    <Content Remove="wwwroot\js\vendor\bootstrap.js" />
+    <Content Remove="wwwroot\js\vendor\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\vendor\jquery-1.11.2.min.js" />
+    <Content Remove="wwwroot\js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
+    <Content Remove="wwwroot\js\vendor\npm.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\animate.min.css" />
+    <None Include="wwwroot\css\bootstrap-theme.css" />
+    <None Include="wwwroot\css\bootstrap-theme.min.css" />
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\custom.css" />
+    <None Include="wwwroot\css\demo.css" />
+    <None Include="wwwroot\css\easy-responsive-tabs.min.css" />
+    <None Include="wwwroot\css\links.css" />
+    <None Include="wwwroot\css\tabs.css" />
+    <None Include="wwwroot\css\templatemo-style.css" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\img\about-image.jpg" />
+    <None Include="wwwroot\img\background-image.png" />
+    <None Include="wwwroot\img\Classmate Photos\Brittany Dodd.jpg" />
+    <None Include="wwwroot\img\Classmate Photos\Casey Brown.jpg" />
+    <None Include="wwwroot\img\Classmate Photos\John Walls.jpg" />
+    <None Include="wwwroot\img\Classmate Photos\Kurtis Caldwell.jpeg" />
+    <None Include="wwwroot\img\Classmate Photos\Paige Scott.jpg" />
+    <None Include="wwwroot\img\Classmate Photos\Sean Coyan.jpg" />
+    <None Include="wwwroot\img\Classmate Photos\Storm Agnew.jpg" />
+    <None Include="wwwroot\img\Classmate Photos\Zachary Barkoviak.jpg" />
+    <None Include="wwwroot\img\close.png" />
+    <None Include="wwwroot\img\home-image.jpg" />
+    <None Include="wwwroot\img\IMG_0998.JPG" />
+    <None Include="wwwroot\img\IMG_0999.JPG" />
+    <None Include="wwwroot\img\item-01.jpg" />
+    <None Include="wwwroot\img\item-02.jpg" />
+    <None Include="wwwroot\img\item-03.jpg" />
+    <None Include="wwwroot\img\item-04.jpg" />
+    <None Include="wwwroot\img\item-05.jpg" />
+    <None Include="wwwroot\img\item-06.jpg" />
+    <None Include="wwwroot\img\item-07.jpg" />
+    <None Include="wwwroot\img\loading.gif" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\mARKuP pIC ME.JPG" />
+    <None Include="wwwroot\img\next.png" />
+    <None Include="wwwroot\img\prev.png" />
+    <None Include="wwwroot\img\project-icon.png" />
+    <None Include="wwwroot\img\project-item-01.jpg" />
+    <None Include="wwwroot\img\project-item-02.jpg" />
+    <None Include="wwwroot\img\project-item-03.jpg" />
+    <None Include="wwwroot\img\project-item-04.jpg" />
+    <None Include="wwwroot\img\project-item-05.jpg" />
+    <None Include="wwwroot\img\project-item-06.jpg" />
+    <None Include="wwwroot\img\project-item-07.jpg" />
+    <None Include="wwwroot\img\TXBY1803.JPG" />
+    <None Include="wwwroot\js\easyResponsiveTabs.js" />
+    <None Include="wwwroot\js\jquery.gmap3.min.js" />
+    <None Include="wwwroot\js\jquery.nicescroll.min.js" />
+    <None Include="wwwroot\js\jquery.youtube-background.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\plugins.js" />
+    <None Include="wwwroot\js\vendor\bootstrap.js" />
+    <None Include="wwwroot\js\vendor\bootstrap.min.js" />
+    <None Include="wwwroot\js\vendor\jquery-1.11.2.min.js" />
+    <None Include="wwwroot\js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
+    <None Include="wwwroot\js\vendor\npm.js" />
+  </ItemGroup>
+
+</Project>
